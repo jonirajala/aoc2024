@@ -3,7 +3,6 @@ import sys
 import os
 from vars import cookies, headers
 
-
 day = sys.argv[1]
 
 response = requests.get(f'https://adventofcode.com/2024/day/{day}/input', cookies=cookies, headers=headers)
